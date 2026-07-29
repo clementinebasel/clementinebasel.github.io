@@ -46,18 +46,8 @@ function renderLinks() {
   `).join("");
 }
 
-function renderCounter() {
-  const el = document.getElementById("visit-counter");
-  if (!el) return;
-  const key = "clementineVisits";
-  const n = (parseInt(localStorage.getItem(key) || "0", 10) + 1);
-  localStorage.setItem(key, String(n));
-  el.textContent = String(n).padStart(6, "0");
-}
-
 document.addEventListener("DOMContentLoaded", () => {
   renderShows();
   renderNews();
   renderLinks();
-  renderCounter();
 });
