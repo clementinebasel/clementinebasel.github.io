@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>clementine — maps</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="site-head">
+    <div class="wordmark-block">
+      <a href="index.html">
+        <p class="wordmark" style="font-size:36px;">clementine<span class="cursor">_</span></p>
+      </a>
+    </div>
+    <nav class="main-nav">
+      <a href="shows.html">upcoming shows</a>
+      <a href="news.html">news</a>
+      <a href="maps.html" class="active">maps</a>
+      <a href="links.html">links</a>
+    </nav>
+  </header>
+
+  <hr class="dotted">
+
+  <h1 class="page-title">maps</h1>
+
+  <div id="lock-screen" class="lock-box">
+    <p>privat — passwort eingeben, um die karte zu sehen.</p>
+    <form id="lock-form">
+      <input type="password" id="pw-input" placeholder="passwort" autocomplete="off">
+      <button type="submit">enter</button>
+    </form>
+    <div class="lock-error" id="pw-error"></div>
+  </div>
+
+  <div id="map" style="display:none;"></div>
+
+</div>
+<script src="data.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script src="maps.js"></script>
+</body>
+</html>
