@@ -19,9 +19,8 @@
         <img src="wordmark.png" alt="clementine" class="wordmark-img">
       </a>
     </div>
-    <img src="stardust-links.jpg" alt="" class="stardust-img">
+    <img src="stardust-yellow.jpg" alt="" class="stardust-img">
     <nav class="main-nav">
-      <a href="news.html">news</a>
       <a href="shows.html">upcoming shows</a>
       <a href="maps.html">maps</a>
       <a href="links.html" class="active">links</a>
@@ -33,7 +32,18 @@
   <h1 class="page-title">links</h1>
   <ul class="plain-list" id="links-list"></ul>
 
-  <footer class="site-foot">clementine © 2026</footer>
+  <footer class="site-foot">
+    <div class="footer-copy">clementine © 2026</div>
+    <div class="contact-box">
+      <p class="contact-label">kontakt</p>
+      <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <input type="email" name="email" placeholder="deine email" required>
+        <textarea name="message" placeholder="deine nachricht" required></textarea>
+        <input type="text" name="_gotcha" style="display:none">
+        <button type="submit">senden</button>
+      </form>
+    </div>
+  </footer>
 
 </div>
 <script src="data.js"></script>

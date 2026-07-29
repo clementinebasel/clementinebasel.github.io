@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>clementine — news</title>
+<title>clementine — ältere news</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -19,9 +19,8 @@
         <img src="wordmark.png" alt="clementine" class="wordmark-img">
       </a>
     </div>
-    <img src="stardust-news.jpg" alt="" class="stardust-img">
+    <img src="stardust-red.jpg" alt="" class="stardust-img">
     <nav class="main-nav">
-      <a href="news.html" class="active">news</a>
       <a href="shows.html">upcoming shows</a>
       <a href="maps.html">maps</a>
       <a href="links.html">links</a>
@@ -30,10 +29,24 @@
 
   <hr class="dotted">
 
-  <h1 class="page-title">news</h1>
-  <div id="news-list"></div>
+  <h1 class="page-title">ältere news</h1>
+  <p class="meta" style="margin-top:-12px; margin-bottom:24px;">
+    <a href="index.html">← zurück zur startseite</a>
+  </p>
+  <div id="news-archive-list"></div>
 
-  <footer class="site-foot">clementine © 2026</footer>
+  <footer class="site-foot">
+    <div class="footer-copy">clementine © 2026</div>
+    <div class="contact-box">
+      <p class="contact-label">kontakt</p>
+      <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <input type="email" name="email" placeholder="deine email" required>
+        <textarea name="message" placeholder="deine nachricht" required></textarea>
+        <input type="text" name="_gotcha" style="display:none">
+        <button type="submit">senden</button>
+      </form>
+    </div>
+  </footer>
 
 </div>
 <script src="data.js"></script>

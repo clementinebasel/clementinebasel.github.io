@@ -22,17 +22,63 @@ function renderShows() {
   }
 }
 
-function renderNews() {
-  const el = document.getElementById("news-list");
+function renderNewsArchive() {
+  const el = document.getElementById("news-archive-list");
   if (!el) return;
   const items = [...CLEMENTINE_DATA.news].sort((a, b) => b.date.localeCompare(a.date));
-  el.innerHTML = items.map(n => `
+  const older = items.slice(5);
+  if (older.length === 0) {
+    el.innerHTML = `<p class="meta">noch keine älteren einträge.</p>`;
+    return;
+  }
+  el.innerHTML = older.map(newsEntryHTML).join("");
+}
+
+function newsEntryHTML(n) {
+  return `
     <article class="news-entry">
       <div class="meta">${formatDate(n.date)}</div>
       <div class="item-title">${n.title}</div>
       ${n.body.split("\n\n").map(p => `<p>${p}</p>`).join("")}
-    </article>
-  `).join("");
+    </article>`;
+}
+
+function renderHomeNews() {
+  const list = document.getElementById("home-news-list");
+  if (!list) return;
+  const items = [...CLEMENTINE_DATA.news].sort((a, b) => b.date.localeCompare(a.date));
+
+  if (items.length === 0) {
+    list.innerHTML = `<p class="meta">noch keine einträge.</p>`;
+    return;
+  }
+
+  const primary = items.slice(0, 2);
+  const extra = items.slice(2, 5);
+  const hasArchive = items.length > 5;
+
+  let html = primary.map(newsEntryHTML).join("");
+
+  if (extra.length > 0) {
+    html += `<div id="home-news-extra" style="display:none;">${extra.map(newsEntryHTML).join("")}</div>`;
+    html += `<button id="home-news-toggle" class="toggle-btn" type="button">mehr anzeigen</button>`;
+  }
+
+  if (hasArchive) {
+    html += `<p class="meta" style="margin-top:14px;"><a href="news.html">ältere einträge →</a></p>`;
+  }
+
+  list.innerHTML = html;
+
+  const toggle = document.getElementById("home-news-toggle");
+  if (toggle) {
+    toggle.addEventListener("click", () => {
+      const extraEl = document.getElementById("home-news-extra");
+      const expanded = extraEl.style.display !== "none";
+      extraEl.style.display = expanded ? "none" : "block";
+      toggle.textContent = expanded ? "mehr anzeigen" : "weniger anzeigen";
+    });
+  }
 }
 
 function renderLinks() {
@@ -48,6 +94,7 @@ function renderLinks() {
 
 document.addEventListener("DOMContentLoaded", () => {
   renderShows();
-  renderNews();
+  renderNewsArchive();
+  renderHomeNews();
   renderLinks();
 });
