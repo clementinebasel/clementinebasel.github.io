@@ -54,6 +54,19 @@ header.site-head {
 .wordmark-block a {
   text-decoration: none;
   color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo {
+  height: 64px;
+  width: auto;
+  display: block;
+}
+
+.logo-small {
+  height: 40px;
 }
 
 .wordmark {
@@ -63,6 +76,10 @@ header.site-head {
   letter-spacing: -1px;
   line-height: 1;
   margin: 0;
+}
+
+.wordmark-small {
+  font-size: 36px;
 }
 
 .cursor {
@@ -232,6 +249,7 @@ footer.site-foot {
 
 @media (max-width: 480px) {
   .wordmark { font-size: 44px; }
+  .logo { height: 44px; }
   header.site-head { flex-direction: column; }
   nav.main-nav { text-align: left; }
 }
