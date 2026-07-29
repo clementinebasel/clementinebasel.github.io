@@ -1,16 +1,14 @@
 /* clementine — style.css
    token system:
-   colors: --bg #ffffff, --ink #111111, --link #0000EE, --visited #551A8B,
-           --accent #E8491D (the flag-pin orange), --hair #cccccc
+   colors: --bg #ffffff, --ink #111111, --link #111111 (black), --hover #EC4899 (pink)
    type:   all text = Spectral (serif), with a script face for the copyright line
 */
 
 :root {
   --bg: #ffffff;
   --ink: #111111;
-  --link: #0000EE;
-  --visited: #551A8B;
-  --accent: #E8491D;
+  --link: #111111;
+  --hover: #EC4899;
   --hair: #cccccc;
   --font-display: "Spectral", Georgia, serif;
   --font-nav: "Spectral", Georgia, serif;
@@ -34,7 +32,7 @@ body {
 }
 
 .wrap {
-  max-width: 760px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 56px 24px 80px;
 }
@@ -55,28 +53,20 @@ header.site-head {
   color: var(--ink);
   display: flex;
   align-items: center;
-  gap: 18px;
+  gap: 8px;
 }
 
 .logo {
-  height: 92px;
+  height: 112px;
   width: auto;
   display: block;
-}
-
-.logo-small {
-  height: 58px;
 }
 
 .wordmark-img {
-  height: 46px;
+  height: 62px;
   width: auto;
   display: block;
   transform: rotate(-4deg);
-}
-
-.wordmark-img-small {
-  height: 30px;
 }
 
 .tagline {
@@ -88,16 +78,13 @@ header.site-head {
   margin: 8px 0 0;
 }
 
-/* signature starburst mark between wordmark and nav */
+/* signature stardust photo between wordmark and nav */
 
-.starburst-icon {
-  height: 70px;
+.stardust-img {
+  height: 150px;
   width: auto;
   align-self: center;
-}
-
-.starburst-icon-small {
-  height: 46px;
+  border-radius: 2px;
 }
 
 nav.main-nav {
@@ -111,11 +98,11 @@ nav.main-nav a {
   display: block;
   color: var(--link);
   text-decoration: underline;
-  margin-bottom: 6px;
+  margin-bottom: 16px;
 }
 
-nav.main-nav a:visited { color: var(--visited); }
-nav.main-nav a:hover { color: var(--accent); }
+nav.main-nav a:visited { color: var(--link); }
+nav.main-nav a:hover { color: var(--hover); }
 nav.main-nav a.active {
   color: var(--ink);
   text-decoration: none;
@@ -151,7 +138,7 @@ ul.plain-list li {
 
 ul.plain-list li::before {
   content: "▸ ";
-  color: var(--accent);
+  color: var(--hover);
 }
 
 .meta {
@@ -174,8 +161,8 @@ article.news-entry p {
 }
 
 a { color: var(--link); }
-a:visited { color: var(--visited); }
-a:hover { color: var(--accent); }
+a:visited { color: var(--link); }
+a:hover { color: var(--hover); }
 
 /* maps password gate */
 
@@ -210,12 +197,12 @@ a:hover { color: var(--accent); }
   cursor: pointer;
 }
 
-.lock-box button:hover { background: var(--accent); }
+.lock-box button:hover { background: var(--hover); }
 
 .lock-error {
   font-family: var(--font-nav);
   font-size: 12px;
-  color: var(--accent);
+  color: var(--hover);
   min-height: 16px;
 }
 
@@ -230,14 +217,14 @@ a:hover { color: var(--accent); }
 footer.site-foot {
   margin-top: 60px;
   font-family: var(--font-script);
-  font-size: 20px;
-  color: #555;
+  font-size: 14px;
+  color: #999;
 }
 
-@media (max-width: 480px) {
-  .logo { height: 60px; }
-  .wordmark-img { height: 32px; }
-  .starburst-icon { height: 48px; }
+@media (max-width: 700px) {
+  .logo { height: 72px; }
+  .wordmark-img { height: 40px; }
+  .stardust-img { height: 100px; }
   header.site-head { flex-direction: column; align-items: flex-start; }
   nav.main-nav { text-align: left; }
 }
