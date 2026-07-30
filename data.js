@@ -9,9 +9,11 @@ const CLEMENTINE_DATA = {
   // --- Upcoming Shows -----------------------------------------------
   // date im Format "YYYY-MM-DD", link ist optional (sonst "" lassen)
   shows: [
-    { date: "2026-09-12", city: "Basel", venue: "Hinterhof, Kaschemme", link: "https://www.petzi.ch/organiser/327140/" },
-    { date: "2026-10-03", city: "Zürich", venue: "Klub am Fluss", link: "" },
-    { date: "2026-11-21", city: "Bern", venue: "Kellerbühne", link: "" },
+    
+     { date: "2026-09-01", city: "Hirscheneck", venue: "w/rubber commune - IAMCHAINSAW (PEB) / Market Saturee", 
+     { date: "2026-09-10", city: "Hirscheneck", venue: "w/mental load - Giulio Erasmus & The Target Group / TBA", link: "https://www.petzi.ch/organiser/327140/" },
+    { date: "2026-09-19", city: "Hirscheneck", venue: "Tiramisadness Duo / Pet Owner", link: "" },
+    { date: "2026-09-29", city: "Hirscheneck", venue: "w/mental load  - Deli Girls / TBA", link: "" },
   ],
 
   // --- News / Blog -----------------------------------------------------
