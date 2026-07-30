@@ -14,7 +14,7 @@ function renderShows() {
     <li>
       <span class="meta">${formatDate(s.date)}</span> —
       <span class="item-title">${s.city}</span>, ${s.venue}
-      ${s.link ? ` — <a href="${s.link}" target="_blank" rel="noopener">tickets</a>` : ""}
+      ${s.link ? ` <a href="${s.link}" target="_blank" rel="noopener" class="ticket-btn">tickets</a>` : ""}
     </li>
   `).join("");
   if (items.length === 0) {
