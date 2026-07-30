@@ -10,10 +10,17 @@ const CLEMENTINE_DATA = {
   // date im Format "YYYY-MM-DD", link ist optional (sonst "" lassen)
   shows: [
     
-    { date: "2026-09-01", city: "Hirscheneck", venue: "w/rubber commune - IAMCHAINSAW / Market Saturee"}, 
-    { date: "2026-09-10", city: "Hirscheneck", venue: "w/mental load - Giulio Erasmus & The Target Group / TBA", link: "https://www.petzi.ch/organiser/327140/" },
+    { date: "2026-09-01", city: "Hirscheneck", venue: "w/ rubber commune - IAMCHAINSAW / Market Saturee"}, 
+    { date: "2026-09-10", city: "Hirscheneck", venue: "w/ mental load - Giulio Erasmus & The Target Group / TBA", link: "https://www.petzi.ch/organiser/327140/" },
     { date: "2026-09-19", city: "Hirscheneck", venue: "Tiramisadness Duo / Pet Owner", link: "" },
-    { date: "2026-09-29", city: "Hirscheneck", venue: "w/mental load  - Deli Girls / TBA", link: "" },
+    { date: "2026-09-19", city: "Hirscheneck", venue: "w / mental load - Deli Girls / TBA", link: "" },
+    { date: "2026-10-01", city: "Hirscheneck", venue: "Blaskapelle Chancentod / TBA", link: "" },
+    { date: "2026-10-30", city: "Hirscheneck", venue: "Splizz / Zuckerbecker", link: "" },
+    { date: "2026-11-05", city: "Hirscheneck", venue: "Flora / EGGS", link: "" },
+    { date: "2026-11-19", city: "Hirscheneck", venue: "Lemongrab / Jazz", link: "" },
+    { date: "2026-11-21", city: "Hirscheneck", venue: "BiG Muff / Rawhead", link: "" },
+    { date: "2026-12-05", city: "Hirscheneck", venue: "Brezel Göring / Cutecumber", link: "" },
+   
   ],
 
   // --- News / Blog -----------------------------------------------------
