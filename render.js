@@ -13,8 +13,9 @@ function renderShows() {
   el.innerHTML = items.map(s => `
     <li>
       <span class="meta">${formatDate(s.date)}</span> —
-      <span class="item-title">${s.city}</span>, ${s.venue}
-      ${s.link ? ` <a href="${s.link}" target="_blank" rel="noopener" class="ticket-btn">tickets</a>` : ""}
+      <span class="show-city">${s.city}</span>, <span class="show-venue">${s.venue}</span>
+      ${s.link ? ` <a href="${s.link}" target="_blank" rel="noopener" class="show-btn">tickets</a>` : ""}
+      ${(s.bands || []).map(b => `<a href="${b.url}" target="_blank" rel="noopener" class="show-btn">${b.name}</a>`).join("")}
     </li>
   `).join("");
   if (items.length === 0) {

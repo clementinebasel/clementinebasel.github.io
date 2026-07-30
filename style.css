@@ -151,7 +151,16 @@ ul.plain-list li::before {
   font-weight: bold;
 }
 
-.ticket-btn {
+.show-city {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.show-venue {
+  font-weight: bold;
+}
+
+.show-btn {
   display: inline-block;
   margin-left: 6px;
   padding: 3px 12px;
@@ -162,7 +171,7 @@ ul.plain-list li::before {
   color: var(--ink);
 }
 
-.ticket-btn:hover {
+.show-btn:hover {
   background: var(--hover);
   border-color: var(--hover);
   color: var(--bg);

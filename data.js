@@ -7,19 +7,23 @@
 const CLEMENTINE_DATA = {
 
   // --- Upcoming Shows -----------------------------------------------
-  // date im Format "YYYY-MM-DD", link ist optional (sonst "" lassen)
+  // date im Format "YYYY-MM-DD", link (Tickets) ist optional (sonst "" lassen)
+  // bands: optionale Liste mit 2-3 Bandcamp-Buttons pro Show, z.B.
+  //   bands: [ { name: "Clementine", url: "https://clementine.bandcamp.com" },
+  //            { name: "Support-Act", url: "https://supportact.bandcamp.com" } ]
+  // Leer lassen mit bands: [] wenn (noch) keine Bandcamp-Links vorhanden sind.
   shows: [
     
-    { date: "2026-09-01", city: "Hirscheneck", venue: "w/ rubber commune - IAMCHAINSAW / Market Saturee"}, 
-    { date: "2026-09-10", city: "Hirscheneck", venue: "w/ mental load - Giulio Erasmus & The Target Group / TBA", link: "https://www.petzi.ch/organiser/327140/" },
-    { date: "2026-09-19", city: "Hirscheneck", venue: "Tiramisadness Duo / Pet Owner", link: "" },
-    { date: "2026-09-19", city: "Hirscheneck", venue: "w / mental load - Deli Girls / TBA", link: "" },
-    { date: "2026-10-01", city: "Hirscheneck", venue: "Blaskapelle Chancentod / TBA", link: "" },
-    { date: "2026-10-30", city: "Hirscheneck", venue: "Splizz / Zuckerbecker", link: "" },
-    { date: "2026-11-05", city: "Hirscheneck", venue: "Flora / EGGS", link: "" },
-    { date: "2026-11-19", city: "Hirscheneck", venue: "Lemongrab / Jazz", link: "" },
-    { date: "2026-11-21", city: "Hirscheneck", venue: "BiG Muff / Rawhead", link: "" },
-    { date: "2026-12-05", city: "Hirscheneck", venue: "Brezel Göring / Cutecumber", link: "" },
+    { date: "2026-09-01", city: "Hirscheneck", venue: "w/ rubber commune - IAMCHAINSAW / Market Saturee", bands: [] }, 
+    { date: "2026-09-10", city: "Hirscheneck", venue: "w/ mental load - Giulio Erasmus & The Target Group / TBA", link: "https://www.petzi.ch/organiser/327140/", bands: [] },
+    { date: "2026-09-19", city: "Hirscheneck", venue: "Tiramisadness Duo / Pet Owner", link: "", bands: [] },
+    { date: "2026-09-19", city: "Hirscheneck", venue: "w / mental load - Deli Girls / TBA", link: "", bands: [] },
+    { date: "2026-10-01", city: "Hirscheneck", venue: "Blaskapelle Chancentod / TBA", link: "", bands: [] },
+    { date: "2026-10-30", city: "Hirscheneck", venue: "Splizz / Zuckerbecker", link: "", bands: [] },
+    { date: "2026-11-05", city: "Hirscheneck", venue: "Flora / EGGS", link: "", bands: [] },
+    { date: "2026-11-19", city: "Hirscheneck", venue: "Lemongrab / Jazz", link: "", bands: [] },
+    { date: "2026-11-21", city: "Hirscheneck", venue: "BiG Muff / Rawhead", link: "", bands: [] },
+    { date: "2026-12-05", city: "Hirscheneck", venue: "Brezel Göring / Cutecumber", link: "", bands: [] },
    
   ],
 
