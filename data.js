@@ -18,7 +18,7 @@ const CLEMENTINE_DATA = {
                                                                                                                       {name: "Market Saturee", url: "https://rubbercommune.bandcamp.com/album/s-t" }] }
     { date: "2026-09-10", city: "Hirscheneck", venue: "w/ mental load - Giulio Erasmus & The Target Group / Ohm Sweet", link: "https://www.petzi.ch/organiser/327140/", bands: [] },
     { date: "2026-09-19", city: "Hirscheneck", venue: "Tiramisadness Duo / Pet Owner", link: "", bands: [] },
-    { date: "2026-09-19", city: "Hirscheneck", venue: "w / mental load - Deli Girls / TBA", link: "", bands: [] },
+    { date: "2026-09-19", city: "Hirscheneck", venue: "w/ mental load - Deli Girls / TBA", link: "", bands: [] },
     { date: "2026-10-01", city: "Hirscheneck", venue: "Blaskapelle Chancentod / TBA", link: "", bands: [] },
     { date: "2026-10-30", city: "Hirscheneck", venue: "Splizz / Zuckerbecker", link: "", bands: [] },
     { date: "2026-11-05", city: "Hirscheneck", venue: "Flora / EGGS", link: "", bands: [] },
