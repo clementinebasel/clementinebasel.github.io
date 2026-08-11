@@ -25,7 +25,7 @@ const CLEMENTINE_DATA = {
     { date: "2026-11-19", city: "Hirscheneck", venue: "Lemongrab / Jazz", link: "", bands: [] },
     { date: "2026-11-21", city: "Hirscheneck", venue: "BiG Muff / Rawhead", link: "", bands: [] },
     { date: "2026-12-05", city: "Hirscheneck", venue: "Brezel Göring / Cutecumber", link: "https://www.petzi.ch/events/64347/tickets/#ticket-117520", bands: [ {name: "Brezel Göring & Psychoanalyse", url: "https://brezelgoering.bandcamp.com/album/arbeitslos-in-berlin" }, 
-                                                                                                                                                              {name: "Cutecumber", url: "https://cutecumber.bandcamp.com/track/stolen-moment" } ] }
+                                                                                                                                                              {name: "Cutecumber", url: "https://cutecumber.bandcamp.com/track/stolen-moment" } ] },
    
   ],
 
