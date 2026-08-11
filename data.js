@@ -15,7 +15,7 @@ const CLEMENTINE_DATA = {
   shows: [
     
     { date: "2026-09-01", city: "Hirscheneck", venue: "w/ rubber commune - PEB IAMCHAINSAW / Market Saturee / Rim H DJ-Set", bands: [ {name: "PEB", url: "https://edelfaulrecordings.bandcamp.com/album/iamchainsaw?search_item_id%3D3027252575%26search_item_type%3Da%26search_match_part%3D%253F%26search_page_id%3D5651199350%26search_page_no%3D0%26search_rank%3D1=" }, 
-                                                                                                                      {name: "Market Saturee", url: "https://rubbercommune.bandcamp.com/album/s-t" }] }
+                                                                                                                      {name: "Market Saturee", url: "https://rubbercommune.bandcamp.com/album/s-t" }] },
     { date: "2026-09-10", city: "Hirscheneck", venue: "w/ mental load - Giulio Erasmus and The Target Group / Ohm Sweet", link: "https://www.petzi.ch/organiser/327140/", bands: [] },
     { date: "2026-09-19", city: "Hirscheneck", venue: "Tiramisadness Duo / Pet Owner", link: "", bands: [] },
     { date: "2026-09-19", city: "Hirscheneck", venue: "w/ mental load - Deli Girls / TBA", link: "", bands: [] },
