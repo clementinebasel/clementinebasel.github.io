@@ -37,17 +37,12 @@ const CLEMENTINE_DATA = {
     {
       date: "2026-07-14",
       title: "review #3 moleskine - "affective experience of urban space",
-      body: " Wohl eher selten veröffentlicht eine Band eine Kassette, pausiert anschließend für ungewisse Zeit und gibt ein stilles Jahr später zu hören, dass in zehn Tagen der Motor Richtung Berlin läuft, um mit keinem anderen als Ty Segall einige Shows zu spielen.
-
+      body: "Wohl eher selten veröffentlicht eine Band eine Kassette, pausiert anschließend für ungewisse Zeit und gibt ein stilles Jahr später zu hören, dass in zehn Tagen der Motor Richtung Berlin läuft, um mit keinem anderen als Ty Segall einige Shows zu spielen.
 Moleskine (Nantes, FR) „Affective Experience of Urban Space“ ist 2025 bei chrüsimüsi records (Biel) erschienen, für die amerikanische Distro hatte Dot Dash Sounds (NYC) gesorgt. Es ist eine unaufgeregte Betrachtung alltäglichen Lebens. Wie eine klangliche Beschreibung eines einzigen Quadratmeters Asphalts, den verschiedene Menschen in verschiedenen Zuständen zu unterschiedlichen Tageszeiten immer gleich überqueren. Ein Nervöser, der sich ständig mit den Augen suchend nach hinten dreht, eine verschlafene Schülerin, zu spät für die U-Bahn, eine ältere Dame, überpünktlich auf dem Weg zur Arztpraxis, oder Menschen, die den Müll innerhalb des Quadrates an die anliegenden Gebäudeseiten kicken.
-
 Es klingt nach Beton-Sucht und sengender Großstadthitze und nach der Akzeptanz, dort keine blühende Natur vorzufinden, passende zu einigen Post Punk oder No Wave Bands der 80er Jahre.
-
 Die Rhythmen wirken portioniert und wiederholen sich über mehrere Takte. Ausbrüche daraus werden durch dissonante No-Wave-Gitarren oder Rhythmuswechsel eingeleitet. Die Stimmen legen sich sprechend über die chaotischen, komplexeren Melodien und verleihen den Songs eine verständliche Ruhe und Kontrolle. Manche Songs wirken gar humorvoll, wenn die Gitarren Autohupen zu imitieren scheinen.
-
 Im Vergleich zum Vorgänger „Comfort“ wirkt „Affective Experience of Urban Space“ erfahrener und weniger rockig. Das Album trifft den Punkt, wenn es profanes Stadtgeschehen beschreibt, denn in diesem chaotischen Wirrwarr findet sich doch immer auch der alltäglichste Trott.
-
-Liebe Moleskine, wir hoffen, nicht wieder ein langes Jahr ohne Neuigkeiten warten zu müssen. "
+Liebe Moleskine, wir hoffen, nicht wieder ein langes Jahr ohne Neuigkeiten warten zu müssen."
     },
     {
       date: "2026-05-02",
